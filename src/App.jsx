@@ -1,7 +1,6 @@
 import Chatbox from "./components/chatbox/Chatbox";
 import Footer from "./components/footer/Footer";
 import NavBar from "./components/navbar/NavBar";
-import "./app.css";
 
 function App() {
 	return (
