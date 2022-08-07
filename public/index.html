@@ -49,12 +49,22 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+		<style>
+			df-messenger {
+				--df-messenger-bot-message: #878fac;
+				--df-messenger-button-titlebar-color: #df9b56;
+				--df-messenger-chat-background-color: #fafafa;
+				--df-messenger-font-color: white;
+				--df-messenger-send-icon: #878fac;
+				--df-messenger-user-message: #479b3d;
+			}
+		</style>
+		<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+		<df-messenger
+			intent="WELCOME"
+			chat-title="NicoBot"
+			agent-id="e6cb1ab8-911e-437a-9d95-966d6de46dac"
+			language-code="es"
+		></df-messenger>
 	</body>
-	<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
-	<df-messenger
-		intent="WELCOME"
-		chat-title="NicoBot"
-		agent-id="e6cb1ab8-911e-437a-9d95-966d6de46dac"
-		language-code="es"
-	></df-messenger>
 </html>
