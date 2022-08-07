@@ -7,6 +7,7 @@ function Footer() {
 	return (
 		<Box
 			sx={{
+				position: "fixed",
 				bottom: 0,
 				left: 0,
 				backgroundColor: "black",
