@@ -3,6 +3,7 @@ import Cards from "./components/Cards";
 import { Box, Container, Grid, Typography } from "@mui/material";
 import "./App.css";
 import Footer from "./components/footer/Footer";
+import Main from "./components/Main";
 
 function App() {
 	return (
@@ -19,27 +20,12 @@ function App() {
 					</Typography>
 				</Box>
 				<Grid container spacing={2}>
-					<Cards
-						imageUrl={
-							"http://sorayaestetica.com/wp-content/uploads/2019/12/cortes-soraya-estetica.jpg"
-						}
-					/>
-					<Cards
-						imageUrl={
-							"http://sorayaestetica.com/wp-content/uploads/2019/12/peinados-soraya.jpg"
-						}
-					/>
-					<Cards
-						imageUrl={
-							"http://sorayaestetica.com/wp-content/uploads/2019/12/mechas-creativas-soraya-estetica.jpg"
-						}
-					/>
-					<Cards
-						imageUrl={
-							"http://sorayaestetica.com/wp-content/uploads/2019/12/tratamientos-capilares-soraya-estetica.jpg"
-						}
-					/>
+					<Cards imageUrl={"/images/peluqueria1.jpg"} />
+					<Cards imageUrl={"/images/peluqueria2.jpg"} />
+					<Cards imageUrl={"/images/peluqueria3.jpg"} />
+					<Cards imageUrl={"/images/peluqueria4.jpg"} />
 				</Grid>
+				<Main />
 			</Container>
 			<Footer />
 		</div>
